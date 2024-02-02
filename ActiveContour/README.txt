@@ -1,8 +1,7 @@
 README FILE
 
-Author:   DI YANG
-Contact:  di.yang@anu.edu.au
-Date:     13/03/2012
+Contact:  fcayoc@gmail.com
+Date:     02/02/2024
 ================================================================================
 
 Active Contour Library consists of C/C++ codes developed implementation and demonstration of two advanced active contour algorithms: 
@@ -44,31 +43,18 @@ This directory contains the following subdirectories.
 INSTALLATION INSTRUCTIONS FOR UBUNTU
 ====================================
 
-This program was tested on Linux using Ubuntu 12.04 (the latest release as of writing
-this document) after installing all updates on 20/11/2012. Ubuntu was obtained
+This program was tested on Linux using Ubuntu 22.04 (the latest release as of writing
+this document) after installing all updates on 02702/2024. Ubuntu was obtained
 from www.ubuntu.com which provides a free download.
-
-This program was also tested on MAC OS X 10.8 Mountain Lion.
-
-To install, the Active Contour directory needs to be copied over to your hard drive. The rest of this document assumes that the directory along with the subdirectories inside it have been copied over to your hard drive. We refer to the location on your hard drive as
-<active contour path> throughout the remainder of this document. 
-
-A working internet connection is required to install some of the dependent
-libraries mentioned below. 
-
-Lines beginning with the $ sign indicate commands that need to be typed and
-entered in the command line in a terminal. The $ sign should not be typed. These
-commands can be directly copy pasted. A terminal can be opened in Ubuntu by
-pressing 'CTRL+ALT+t'.
-
 Proceed as follows to install the dependent libraries and to install active contour library.
 
   1) Install the C/C++ build system.
 	$ sudo apt-get install build-essential
   
   2) Install the OpenCV library.
-	$ sudo apt-get install libcv2.3 libcv-dev libcvaux-dev libcvaux2.3	
-	$ sudo apt-get install libhighgui-dev libhighgui2.3 opencv-doc
+	$ sudo apt-get install libopencv-dev
+	$ sudo apt update
+	$ sudo apt install libopencv-highgui-dev opencv-doc
 
   3) Now that all dependant libraries have been installed we can proceed to
      build the active contour source code as follows.
