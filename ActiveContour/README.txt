@@ -44,7 +44,7 @@ INSTALLATION INSTRUCTIONS FOR UBUNTU
 ====================================
 
 This program was tested on Linux using Ubuntu 22.04 (the latest release as of writing
-this document) after installing all updates on 02702/2024. Ubuntu was obtained
+this document) after installing all updates on 02/02/2024. Ubuntu was obtained
 from www.ubuntu.com which provides a free download.
 Proceed as follows to install the dependent libraries and to install active contour library.
 
